@@ -19,12 +19,14 @@
       <input type="text" class="form-control" v-model.lazy="motto" placeholder="v-model.lazy" />
       <input type="text" class="form-control" v-model="motto" placeholder="v-model"/>
     </form>
-    
+    <a href="/pages/todolist/main">去todolist页面</a>
+    <todolist></todolist>
   </div>
 </template>
 
 <script>
 import card from '@/components/card'
+import todolist from '@/components/todolist'
 
 export default {
   data () {
@@ -35,7 +37,8 @@ export default {
   },
 
   components: {
-    card
+    card,
+    todolist
   },
 
   methods: {
