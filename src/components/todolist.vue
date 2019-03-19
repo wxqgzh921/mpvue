@@ -17,8 +17,8 @@ export default {
     return {
       inputxt: '',
       list: [
-        {text: '吃饭', done: 'false'},
-        {text: '睡觉', done: 'false'}
+        {text: '吃饭', done: false},
+        {text: '睡觉', done: false}
       ]
     }
   },
